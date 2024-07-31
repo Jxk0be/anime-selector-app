@@ -9,7 +9,7 @@
                 return []
             }
 
-            const response = await fetch(`${import.meta.env.VITE_JIKAN_API_URI}/anime?q=${searchValue}&limit=5&order_by=popularity&sort=asc`)
+            const response = await fetch(`${import.meta.env.VITE_JIKAN_API_URI}/anime?q=${searchValue}&limit=5`)
             if (!response.ok) {
                 console.log("Response failed")
                 return []

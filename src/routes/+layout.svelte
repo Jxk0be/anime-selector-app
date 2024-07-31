@@ -2,6 +2,6 @@
     import "../app.css";
 </script>
 
-<div class="max-w-[1200px] mx-auto min-h-screen h-full bg-slate-400">
+<div class="md:max-w-[1200px] w-full mx-auto min-h-screen h-full">
     <slot />
 </div>
