@@ -58,7 +58,7 @@
     {#if animeInfo?.trailer?.embed_url}
         <div class="mt-6">
             <h2 class="text-xl font-semibold">Trailer</h2>
-            <div class="md:w-[735px] md:max-w-screen w-full mt-1 h-[300px] bg-green-400 flex justify-center items-center md:h-[400px]">
+            <div class="md:w-[735px] md:max-w-screen w-full mt-1 h-[300px] flex justify-center items-center md:h-[400px]">
                 <iframe class="w-full h-full" src={modifyEmbedTrailer(animeInfo?.trailer?.embed_url)} title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
